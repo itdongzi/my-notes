@@ -472,3 +472,4 @@ SELECT 编码, 名称 FROM 字典表 WHERE 状态 = '1'
 AND (':开始时间' IS NULL OR t.创建时间 >= TO_DATE(':开始时间','yyyy-mm-dd'))
 AND (':结束时间' IS NULL OR TO_DATE(':结束时间 23:59:59','yyyy-mm-dd hh24:mi:ss') >= t.创建时间)
 ```
+
